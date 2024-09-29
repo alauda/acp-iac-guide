@@ -1,0 +1,28 @@
+site_name: IaC Guide For ACP (Terraform Edition)
+theme:
+  name: material
+
+nav:
+  - Introduction: ./index.md
+  - Terraform Integration with ACP: ./acp_terraform_integration.md
+  - ACP Resource Management: ./acp_resource_management.md
+  - FAQ: ./FQA.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+
+docs_dir: ./guide
+
+use_directory_urls: false
+
+plugins:
+  - search
+  - with-pdf:
+      cover_title: IaC Guide For ACP
+      cover_subtitle: IaC Guide For ACP
+      output_path: acp_terraform_guide.pdf
