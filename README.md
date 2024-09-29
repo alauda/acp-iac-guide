@@ -28,14 +28,6 @@ make build
 ```
 The built files will be located in the `site/` directory.
 
-### Generate PDF
-
-Use the following command to generate the PDF:
-```
-make pdf
-```
-The generated PDF file will be named `terraform-guide.pdf`.
-
 ## Automated Deployment
 
 This project uses GitHub Actions for automated deployment. Every time you push to the `main` branch, the following actions will be triggered:
