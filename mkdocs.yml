@@ -23,6 +23,8 @@ use_directory_urls: false
 plugins:
   - search
   - with-pdf:
+      author: "Alauda Team"
+      copyright: "Alauda Team"
       cover_title: IaC Guide For ACP
-      cover_subtitle: IaC Guide For ACP
+      cover_subtitle: Terraform Edition
       output_path: acp_terraform_guide.pdf
