@@ -10,7 +10,7 @@ Our company has encapsulated Terraform modules for several ACP resources. We rec
 - **Best Practices**: These modules are designed according to ACP-recommended best practices, making IaC writing elegant and efficient.
 - **Maintenance Support**: These modules are continuously maintained and updated by Alauda Cloud, ensuring compatibility with the ACP platform.
 
-ACP Modules are hosted in the [alauda/terraform-acp-modules](https://github.com/alauda/terraform-acp-modules) repository. The [README document](https://github.com/alauda/terraform-acp-modules/blob/v3.16/README.md) in the repository introduces the basic usage of the modules to help users get started quickly. Additionally, the README document for each module in the repository provides detailed parameter descriptions and usage examples, allowing users to select appropriate modules based on their needs.
+The README document in the ACP Modules repository introduces the basic usage of the modules to help users get started quickly. Additionally, the README document for each module in the repository provides detailed parameter descriptions and usage examples, allowing users to select appropriate modules based on their needs.
 
 ## Managing ACP Resources Using the Kubectl Provider
 
@@ -222,7 +222,7 @@ The usage of Provider declarations in the example can be referred to in the intr
 
 For enterprise users with specific requirements, encapsulating custom Terraform Modules that fit the company's internal use cases is an ideal choice. This approach allows for module design completely based on the company's specific needs and best practices, providing a unified resource management standard for internal use, further improving team efficiency and reducing repetitive work.
 
-We suggest users fork and modify the [alauda/terraform-acp-modules](https://github.com/alauda/terraform-acp-modules) repository, or create a new repository referencing the structure and recommended practices of [alauda/terraform-acp-modules](https://github.com/alauda/terraform-acp-modules) for development. This repository not only provides implementations of existing modules but also details how to develop ACP modules in the [Development document](https://github.com/alauda/terraform-acp-modules/blob/v3.16/Development.md), along with important principles and suggestions to follow during development. This can help you create high-quality, easily maintainable custom ACP modules.
+We suggest users fork and modify the terraform-acp-modules repository, or create a new repository referencing its structure and recommended practices for development. This repository not only provides implementations of existing modules but also details how to develop ACP modules in the `Development.md` document, along with important principles and suggestions to follow during development. This can help you create high-quality, easily maintainable custom ACP modules.
 
 !!! tip ""
     If you encounter any issues or need further guidance during development, please feel free to contact our support team. We are more than happy to assist you in fully leveraging the powerful features of the ACP platform and Terraform.
