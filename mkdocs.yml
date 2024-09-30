@@ -25,6 +25,7 @@ plugins:
   - with-pdf:
       author: "Alauda Team"
       copyright: "Alauda Team"
+      cover_logo: ./assets/logo.svg
       cover_title: IaC Guide For ACP
       cover_subtitle: Terraform Edition
       output_path: acp_terraform_guide.pdf
